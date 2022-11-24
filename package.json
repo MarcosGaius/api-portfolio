@@ -16,8 +16,7 @@
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
     "start": "node dist/server.js",
-    "tsc": "tsc",
-    "build": "yarn run tsc"
+    "build": "yarn && tsc"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
