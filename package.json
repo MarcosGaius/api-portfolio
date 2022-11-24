@@ -2,7 +2,7 @@
   "name": "portfolio-api",
   "version": "1.0.0",
   "description": "API for Marcos Gaius portfolio",
-  "main": "index.js",
+  "main": "server.js",
   "author": "Marcos Gaius",
   "license": "MIT",
   "dependencies": {
