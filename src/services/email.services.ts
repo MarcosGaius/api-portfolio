@@ -4,9 +4,7 @@ import { AppError } from "../errors/AppError";
 
 export const createEmailService = async (data: Mail.Options): Promise<void> => {
   const transporter = nodemailer.createTransport({
-    host: "smtp-mail.outlook.com",
-    port: 587,
-    secure: false,
+    service: "Outlook365",
     auth: {
       user: process.env.SENDER_EMAIL,
       pass: process.env.SENDER_PASSWORD,
